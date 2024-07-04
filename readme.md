@@ -46,22 +46,23 @@ A API está atualmente hospedada em [https://julio-api.onrender.com/user](https:
 } 
 ```
 
-
-## Tecnologias Utilizadas
-
-- **Spring Boot**: Framework para criação de aplicativos Java baseados em Spring.
-- **Java**: Linguagem de programação principal.
-- **Hibernate/JPA**: Mapeamento objeto-relacional para persistência de dados.
-- **ModelMapper**: Ferramenta para mapeamento de objetos DTO para entidades e vice-versa.
-- **JUnit 5**: Framework para testes unitários.
-- **Docker**: Para facilitar o empacotamento da aplicação em um contêiner.
-
 ## Como Executar
 
-Para executar localmente, certifique-se de ter o Java 17 e o Maven instalados. Clone o repositório e execute:
+Para executar localmente, certifique-se de ter o Java 21 e o Maven instalados. Clone o repositório e execute:
 
 ```bash
 mvn spring-boot:run
 ```
 
 Acesse a API em http://localhost:8080/user
+
+## Tecnologias Utilizadas ⚒️
+
+- **Spring Boot**: Framework para criação de aplicativos Java baseados em Spring.
+- **Java**: Linguagem de programação principal.
+- **Hibernate/JPA**: Mapeamento objeto-relacional para persistência de dados.
+- **ModelMapper**: Ferramenta para mapeamento de objetos DTO para entidades e vice-versa.
+- **JUnit 5**: Framework para testes unitários.
+- **Docker**: Para facilitar o empacotamento da aplicação em um conteiner.
+
+<img src="https://skillicons.dev/icons?i=docker,java,postman,spring,hibernate,idea" />
