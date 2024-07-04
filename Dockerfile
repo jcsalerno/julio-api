@@ -9,7 +9,6 @@ COPY . .
 
 RUN ./mvnw clean package -DskipTests
 
-# Stage 2: Use a smaller base image for runtime
 FROM openjdk:21-jdk-slim
 
 EXPOSE 8080
